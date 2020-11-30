@@ -1,5 +1,5 @@
 FROM nodesource/jessie-base
-MAINTAINER William Blankenship <wblankenship@nodesource.com>
+
 
 RUN curl https://deb.nodesource.com/node_6.x/pool/main/n/nodejs/nodejs_6.7.0-1nodesource1~jessie1_amd64.deb > node.deb \
  && dpkg -i node.deb \
